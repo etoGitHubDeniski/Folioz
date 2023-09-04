@@ -1,0 +1,23 @@
+:root {
+  --f-black: black;
+  --f-white: white;
+  --f-dark-gray: #111111;
+  --f-gray: #333333;
+
+  --text: var(--f-black);
+  --text-btn: var(--f-white);
+  --text-card: var(--f-gray);
+  --text-heading: var(--f-dark-gray);
+  --text-logo: var(--f-dark-gray);
+  --bg: var(--f-white);
+  --bg-btn: var(--f-black);
+  --bg-secondary: rgba(0, 0, 0, 0.02);
+  --bg-tabs: #f7f7f7;
+  --border-btn: #222222;
+  --fill-menu-toggle: #999999;
+  --fill-btn: var(--f-white);
+
+  --max-width: 1000px;
+  --indent: 20px;
+  --gap: 24px;
+}

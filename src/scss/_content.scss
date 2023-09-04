@@ -1,0 +1,23 @@
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.heading-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.heading {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: 1px;
+  color: var(--text-heading);
+}
+
+.subheading {
+  letter-spacing: 0.8px;
+}

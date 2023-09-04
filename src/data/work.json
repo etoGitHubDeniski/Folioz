@@ -1,0 +1,44 @@
+[
+  {
+    "image-src": "/images/work/card1/work-card1-1024.webp",
+    "image-alt": "person puting wine on flute glass",
+    "heading": "Event Website",
+    "description": "A platform to promote and manage events with features like ticket sales etc.",
+    "link": "#"
+  },
+  {
+    "image-src": "/images/work/card2/work-card2-1024.webp",
+    "image-alt": "person holding black and white card",
+    "heading": "Membership Website",
+    "description": "A platform for providing exclusive content or services to paying members.",
+    "link": "#"
+  },
+  {
+    "image-src": "/images/work/card3/work-card3-1024.webp",
+    "image-alt": "man in blue polo shirt holding gray and black hair blower",
+    "heading": "NonProfit Website",
+    "description": "A platform to showcase the mission and achievements of a non-profit organization.",
+    "link": "#"
+  },
+  {
+    "image-src": "/images/work/card4/work-card4-1024.webp",
+    "image-alt": "MacBook Air beside gold-colored study lamp and spiral books",
+    "heading": "Blog Website",
+    "description": "A platform for regularly updated articles or posts on a particular topic or niche.",
+    "link": "#"
+  },
+  {
+    "image-src": "/images/work/card5/work-card5-1024.webp",
+    "image-alt": "person using MacBook Pro on black tablet",
+    "heading": "Ecommerce Website",
+    "description": "An online platform for businesses to sell products or services.",
+    "link": "#"
+  },
+  {
+    "image-src": "/images/work/card6/work-card6-1024.webp",
+    "image-alt": "Apple MacBook beside computer mouse on table",
+    "heading": "Agency Website",
+    "description": "A platform to showcase the services and portfolio of a creative agency & more.",
+    "link": "#"
+  }
+]

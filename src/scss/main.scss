@@ -1,0 +1,16 @@
+@import './fonts';
+@import './variables';
+@import './general';
+
+// Common
+@import './container';
+@import './btn';
+@import './material-icons';
+@import './content';
+
+// Blocks
+@import '../blocks/header/header';
+@import '../blocks/hero/hero';
+@import '../blocks/services/services';
+@import '../blocks/work/work';
+@import '../blocks/testimonials/testimonials';

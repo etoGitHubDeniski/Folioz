@@ -1,0 +1,19 @@
+.container {
+  width: 100%;
+  padding-inline: var(--indent);
+  margin-inline: auto;
+
+  @media (width >= 720px) {
+    max-width: calc(648px + var(--indent));
+  }
+
+  @media (width >= 1200px) {
+    max-width: calc(var(--max-width) + var(--indent));
+  }
+
+  &--section {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+}

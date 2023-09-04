@@ -1,0 +1,53 @@
+@import './logo';
+@import './menu-toggle';
+@import './nav';
+@import './download-link';
+
+.header {
+  position: sticky;
+  top: 0;
+  max-height: 80px;
+  background-color: var(--bg);
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 5px 10px 0px;
+  transition-property: max-height;
+  transition-duration: 0.4s;
+  transition-timing-function: ease-in;
+
+  &__inner {
+    padding-top: var(--gap);
+    padding-inline: var(--gap);
+    padding-bottom: 60px;
+  }
+
+  &__top {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__menu {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap);
+    padding-top: var(--gap);
+    visibility: hidden;
+    transition: visibility 0s 0.5s;
+  }
+
+  &--open {
+    max-height: 375px;
+    overflow: auto;
+    animation: 3s delay-overflow;
+
+    .header__menu {
+      visibility: visible;
+      transition-delay: 0s;
+    }
+  }
+}
+
+@keyframes delay-overflow {
+  from {
+    overflow: hidden;
+  }
+}

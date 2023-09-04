@@ -1,0 +1,32 @@
+.menu-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  fill: var(--fill-menu-toggle);
+  -webkit-tap-highlight-color: transparent;
+
+  &__rect {
+    transition-property: transform, width;
+    transition-duration: 0.4s;
+  }
+
+  &--close {
+    .menu-toggle__rect {
+      &--top {
+        // TODO: попробовать transform-origin
+        transform: translate(0.5px, 17.5px) rotate(-45deg);
+      }
+
+      &--middle {
+        width: 2px;
+        transform: translateX(11px);
+      }
+
+      &--bottom {
+        transform: translate(17.5px, -10.5px) rotate(45deg);
+      }
+    }
+  }
+}

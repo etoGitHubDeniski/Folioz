@@ -1,0 +1,38 @@
+.hero {
+  padding-top: 80px;
+  padding-bottom: 97px;
+
+  &__inner {
+    gap: 39px;
+  }
+
+  &__greeting {
+    font-size: 16px;
+    line-height: 1.2;
+  }
+
+  &__intro {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1.4;
+    letter-spacing: 1px;
+    color: var(--text-heading);
+  }
+
+  &__description {
+    line-height: 1.9;
+    color: rgba(0, 0, 0, 0.63);
+  }
+
+  &__buttons {
+    display: flex;
+    gap: 11px;
+  }
+
+  &__image {
+    width: 100%;
+    height: 455px;
+    object-fit: cover;
+    border-radius: 9px;
+  }
+}

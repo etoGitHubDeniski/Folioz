@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Space Grotesk Light'),
+    url('../fonts/SpaceGrotesk/SpaceGrotesk-Light.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Space Grotesk Regular'),
+    url('../fonts/SpaceGrotesk/SpaceGrotesk-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Space Grotesk Medium'),
+    url('../fonts/SpaceGrotesk/SpaceGrotesk-Medium.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Space Grotesk SemiBold'),
+    url('../fonts/SpaceGrotesk/SpaceGrotesk-SemiBold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Space Grotesk Bold'),
+    url('../fonts/SpaceGrotesk/SpaceGrotesk-Bold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Material Icons Regular'),
+    url('../fonts/MaterialIcons/MaterialIcons-Regular.woff2') format('woff2');
+}

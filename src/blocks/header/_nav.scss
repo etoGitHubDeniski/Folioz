@@ -1,0 +1,12 @@
+.nav {
+  font-weight: 500;
+  line-height: 1.9;
+  letter-spacing: 0.8px;
+  text-align: center;
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
